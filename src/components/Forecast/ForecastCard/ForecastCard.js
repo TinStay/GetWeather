@@ -1,11 +1,15 @@
-import React from 'react';
+import React,{useState} from 'react';
 import classes from './ForecastCard.module.css';
 
 
-const forecastCard = (props) =>{
+function ForecastCard(props){
     const imgUrl = `https://www.weatherbit.io/static/img/icons/${props.icon}.png`;
+   
 
-    let animatedClasses = [classes.ForecastCard, 'animated fadeInLeftBig ']
+    let animatedClasses = [classes.ForecastCard, 'animated zoomIn']
+
+    
+   
 
     return(
         <div className={animatedClasses.join(' ')}>
@@ -26,4 +30,4 @@ const forecastCard = (props) =>{
 }
 
 
-export default forecastCard;
+export default ForecastCard;

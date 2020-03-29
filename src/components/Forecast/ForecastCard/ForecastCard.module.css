@@ -2,7 +2,12 @@
     background: linear-gradient(to right, rgba(36, 59, 85, 0.719), #2c2c54); 
     border-radius: 10px;
     margin: 20px 10px;
-    
+    transition: all 0.4s ease;
+}
+
+.ForecastCard:hover{
+   background-color: rgb(226, 76, 71);
+   margin: 0 10px;
 }
 
 .Date{

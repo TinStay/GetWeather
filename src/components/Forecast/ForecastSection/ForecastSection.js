@@ -6,7 +6,10 @@ import {connect} from 'react-redux'
 
 
 class ForecastSection extends PureComponent{
-    
+    state = {
+        onSection: false 
+    }
+
     render(){
         const forecast = this.props.forecastData
         const forecastArray = Object.values(forecast)

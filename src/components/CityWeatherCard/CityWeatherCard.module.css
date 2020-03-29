@@ -8,7 +8,7 @@
     border-radius: 10px;
 
     /* border: 5px solid white; */
-    border-bottom: 1px solid transparent;
+    border-bottom: 2px solid transparent;
     border-top: 1px solid transparent;
 }
 
@@ -19,8 +19,10 @@
 }
 
 .WeatherCard:hover{
-    border-bottom: 1px solid white;
-    border-top: 1px solid white;
+    width: 63%;
+    border-bottom: 2px solid #8e44ad;
+    border-top: 1px solid #8e44ad;
+    
 }
 
 
