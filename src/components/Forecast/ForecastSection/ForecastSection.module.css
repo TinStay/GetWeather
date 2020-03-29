@@ -1,0 +1,22 @@
+.ForecastSection{
+    padding-bottom: 130px;
+    padding-top: 75px;
+    /* border-radius: 20px;  */
+    background-color: #f0d583;
+    background: url('../../../assets//pictures//forecast.jpg' ) center center fixed;
+}
+
+.Heading{
+    padding-bottom: 70px;
+    color: #2c2c54;
+    font-weight: bold;
+    font-size: 2.6rem;
+    letter-spacing: 3px;
+}
+
+
+@media(min-width: 768px){
+    .ForecastSection{
+        margin-top: 3%;
+    }
+}

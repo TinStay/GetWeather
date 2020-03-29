@@ -1,0 +1,24 @@
+.ForecastCard{
+    background: linear-gradient(to right, rgba(36, 59, 85, 0.719), #2c2c54); 
+    border-radius: 10px;
+    margin: 20px 10px;
+    
+}
+
+.Date{
+    margin-bottom: 10px;
+    border-bottom: 1px solid #eccc68;
+}
+
+.Info{
+    font-size: 1.2rem;
+    /* display: flex; */
+    margin:0 10px;
+}
+
+.Icon{
+    background-color: white;
+    padding: 20px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}

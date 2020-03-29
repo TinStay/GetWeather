@@ -1,0 +1,36 @@
+.Navbar{
+    background-color: #f0d483;
+    color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    top: 0;
+}
+
+
+.NavbarCollapse{
+    position: relative;
+    right: 0;
+    margin-top: 17px;
+}
+
+.Logo{
+    width: 80px;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+
+}
+
+.NavLink{
+    font-size: 1.4rem;
+    color: black;
+}
+
+
+@media(min-width: 991px){
+    .NavbarCollapse{ 
+        margin-top: 0px;
+    }
+}

@@ -1,0 +1,18 @@
+
+.Jumbotron{
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+.Heading{
+    padding: 20px;
+    color: #eccc68;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.Arrow{
+    font-size: 4rem;
+    color: #f0d583;
+}
+
