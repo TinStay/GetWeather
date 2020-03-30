@@ -13,7 +13,7 @@ const saveCityWeather = (payload) =>{
 
 export function getCityWeather(city){
     return (dispatch) =>{
-        axios.get(`https://api.weatherbit.io/v2.0/forecast/daily?city=${city}&key=c2b367514ee041af88b673ce27e720e7`)
+        axios.get(`https://api.weatherbit.io/v2.0/forecast/daily?city=${city}&key=api_key`)
         .then(response=>{
             // console.log(response.data)
 
@@ -96,11 +96,10 @@ export  function getLocationWeather(){
         }).then((payload)=>{
             // console.log(payload)
 
-            // const url = `https://api.weatherbit.io/v2.0/current?&lat=${payload.lat}&lon=${payload.lon}&key=c2b367514ee041af88b673ce27e720e7`;
-            const url = `https://api.weatherbit.io/v2.0/forecast/daily?&lat=${payload.lat}&lon=${payload.lon}&key=c2b367514ee041af88b673ce27e720e7`;
+           
+            const url = `https://api.weatherbit.io/v2.0/forecast/daily?&lat=${payload.lat}&lon=${payload.lon}&key=api_key`;
 
-            // const url = "https://api.weatherbit.io/v2.0/current?&city_id=8953360&key=c2b367514ee041af88b673ce27e720e7;"
-            // const url = 'api.openweathermap.org/data/2.5/forecast/daily?id=524901&appid=79af495533c135dce31b1c03e27ea1f6';
+
             
     
             axios.get(url).then(
