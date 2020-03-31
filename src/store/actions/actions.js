@@ -67,15 +67,6 @@ function saveCoords(payload){
     }
 }
 
-// const saveLocationWeather = (weatherData) =>{
-//     return{
-//         type: actionTypes.SAVE_WEATHER,
-//         payload: weatherData,
-   
-//     }
-// }
-
-// api_key = "c2b367514ee041af88b673ce27e720e7"
 
 export  function getLocationWeather(){
     return async function(dispatch){
